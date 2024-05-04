@@ -14,19 +14,10 @@ setup(
     long_description_content_type="text/markdown",
     license="Apache License 2.0",
     url="https://www.SBERT.net",
-    download_url="https://github.com/UKPLab/sentence-transformers/",
+    download_url="https://github.com/wzqww23/sentence-transformers/",
     packages=find_packages(),
     python_requires=">=3.8.0",
-    install_requires=[
-        "transformers>=4.34.0,<5.0.0",
-        "tqdm",
-        "torch>=1.11.0",
-        "numpy",
-        "scikit-learn",
-        "scipy",
-        "huggingface-hub>=0.15.1",
-        "Pillow",
-    ],
+    install_requires=[],
     extras_require={
         "dev": [
             "pre-commit",
